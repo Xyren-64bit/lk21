@@ -3,7 +3,7 @@ from . import BaseExtractor
 
 class Otakudesu(BaseExtractor):
     tag = "anime"
-    host = "https://otakudesu.cam"
+    host = "https://otakudesu.cloud"
 
     def extract_data(self, id: str) -> dict:
         """
